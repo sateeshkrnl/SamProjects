@@ -4,7 +4,7 @@
   <module>
     <web>
       <web-uri>EmployeeWeb.war</web-uri>
-      <context-root>EmployeeWeb123</context-root>
+      <context-root>EmployeeWeb</context-root>
     </web>
   </module>
 </application>
