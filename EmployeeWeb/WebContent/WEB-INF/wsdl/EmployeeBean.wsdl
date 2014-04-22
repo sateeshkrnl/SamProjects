@@ -52,7 +52,7 @@
   </wsdl:binding>
   <wsdl:service name="EmployeeBeanService">
     <wsdl:port binding="tns:EmployeeBeanServiceSoapBinding" name="EmployeeBeanPort">
-      <soap:address location="http://localhost:8080/EmployeeWeb/EmployeeBean"/>
+      <soap:address location="http://localhost:8080/EmployeeWeb/EmployeeBeanService/EmployeeBean"/>
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>
