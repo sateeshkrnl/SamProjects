@@ -3,12 +3,12 @@ package com.emp.test;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import javax.ejb.EJB;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.xml.ws.WebServiceRef;
 
 import com.emp.bean.EmployeeBean;
 
@@ -18,7 +18,7 @@ import com.emp.bean.EmployeeBean;
 @WebServlet(name="TestServlet",urlPatterns={"/TestServlet"})
 public class TestServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	@WebServiceRef(wsdlLocation="WEB-INF/wsdl/EmployeeBean.wsdl")
+	@EJB
 	private EmployeeBean employeeBean;
     /**
      * Default constructor. 
