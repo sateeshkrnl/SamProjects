@@ -7,8 +7,9 @@
 <title>Login Page</title>
 </head>
 <body>
+	<div id="headerDiv" style="background-color:olive;border-style:solid;border-width:1px;width:1200px;height:50px"></div>
 	<div id="loginDiv"
-		style="width: 300px; height: 150px; border-style: solid; border-width: 2px; position: absolute; right: 150px; bottom: 150px; top: 200px; left: 300px;">
+		style="width: 300px; height: 150px; border-style: solid; border-width: 2px; position: absolute; right: 150px; bottom: 150px; top: 200px; left: 500px;">
 
 		<table
 			style="top: 20px; left: 30px; bottom: 150px; right: 150px; position: relative;">
@@ -31,5 +32,6 @@
 			</tr>
 		</table>
 	</div>
+	<div id="footerDiv" style="background-color:olive;border-style:solid;border-width:1px;width:1200px;height:50px;position:absolute;top:500px"></div>
 </body>
 </html>
